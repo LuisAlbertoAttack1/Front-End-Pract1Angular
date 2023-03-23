@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Practica1';
+  public titulo: string = 'Hola mundo';
+  public saludar(): void {
+    alert("hola");
+  }
 }
